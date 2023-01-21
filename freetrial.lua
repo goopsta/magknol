@@ -1,4 +1,6 @@
-
+if not isfile("stuff3.rbxm") then
+    writefile("stuff3.rbxm", game:HttpGet("https://github.com/goopsta/magknol/raw/main/stuff.rbxm"))
+end
 
 
 
